@@ -1,1 +1,9 @@
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=21949824)
+## _About_
+
+This is a small game where you play hide and seek. Your goal is to guess the correct spot in 3 tries. There are 7 hiding spots.
+
+## _Made By_
+
+Andrew Abramajtys - Project Manager, Programmer
+
+Nataleigh Knapp - Programmer
