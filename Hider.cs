@@ -4,17 +4,20 @@ public class Hider
     private int spotChoice;
     public Hider()
     {
-        this.spotChoice = spotChoice;
+        this.spotChoice = 0;
     }
     public void ResetSpot()
     {
-        Random random = new Random();
-        int rand1 = random.Next(1, 8);
-        int randNumber = rand1;
-        spotChoice = randNumber;
+        var random = new System.Random();
+        spotChoice = random.Next(0, 7);
     }
     public void TestRandom()
     {
         Console.WriteLine("Hider is in spot " + spotChoice);
+    }
+
+    public int GetSpotChoice()
+    {
+        return spotChoice;
     }
 }
