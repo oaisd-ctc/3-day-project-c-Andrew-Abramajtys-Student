@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Linq;
-using HideNSeek;
+namespace HideNSeek;
 
 
 public class Spots
 {
-    public static void Main(string[] args)
+    public Spots()
     {
-        hidingSpots();
+        
     }
 
-    public static void hidingSpots()
+    public static void HidingSpots()
     {
         Hider hider = new Hider();
         hider.ResetSpot();
@@ -46,6 +46,7 @@ public class Spots
             if (string.Equals(spot, hiderSpot, StringComparison.OrdinalIgnoreCase))
             {
                 Console.WriteLine("You found them congratulations, on to the next round.");
+                Program.score = Program.score + (3 - attempts);
                 break;
             }
             else
