@@ -7,6 +7,7 @@ public class Program
 
     public static void Main(string[] args)
     {
+        GameStart();
         Hider hider = new Hider();
         for (;;)
         {
@@ -15,6 +16,12 @@ public class Program
             Spots.HidingSpots();
             RoundEnd();
         }
+    }
+    
+    public static void GameStart()
+    {
+        Console.WriteLine("Welcome to Hide And Seek! Your goal is to find the hider in 3 attempts.");
+        Console.WriteLine("The quicker you find the hider, the more points you will get. Good luck!");
     }
 
     public static void RoundStart()
