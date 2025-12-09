@@ -6,7 +6,7 @@ This is a small game where you play hide and seek. Your goal is to guess the cor
 
 ### _How To Play_
 
-You will be prompted at the start of the game to guess which spot the hider is in. You will get 3 chances to guess right, and extra points will be given for efficiency. Every round the hider will choose a different randomized spot.
+You will be prompted at the start of the game to guess which spot the hider is in. You will get 3 chances to guess right, and extra points will be given for efficiency. Every round the hider will choose a different randomized spot. Enter "end" at any time to stop the program.
 
 ## _Purpose_
 
