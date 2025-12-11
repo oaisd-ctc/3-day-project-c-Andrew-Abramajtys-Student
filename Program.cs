@@ -7,21 +7,25 @@ public class Program
 
     public static void Main(string[] args)
     {
-        GameStart();
+        StoryLine();
         Hider hider = new Hider();
         for (;;)
         {
             Spots spots = new Spots();
             RoundStart();
+            Thread.Sleep(1000);
             Spots.HidingSpots();
+            Thread.Sleep(1000);
             RoundEnd();
+            Thread.Sleep(1000);
         }
     }
-    
-    public static void GameStart()
+
+    public static void StoryLine()
     {
-        Console.WriteLine("Welcome to Hide And Seek! Your goal is to find the hider in 3 attempts.");
-        Console.WriteLine("The quicker you find the hider, the more points you will get. Good luck!");
+        Console.WriteLine("Your hanging out with your friend, and you decide to play hide and seek,");
+        Console.WriteLine("but there's a catch you have 3 tries, if you are unable to find them in the 3 tries they win.");
+        Thread.Sleep(1500);
     }
 
     public static void RoundStart()
